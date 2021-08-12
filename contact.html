@@ -66,23 +66,20 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
+									<form action="mailto:mattgazzano@gmail.com"
+									method=”POST”
+									enctype=”multipart/form-data”
+									name=”EmailForm”>
 										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
 											<div class="col-12">
 												<input type="text" name="subject" placeholder="Subject" />
 											</div>
 											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
+												<textarea name="body" placeholder="Message" rows="7"></textarea>
 											</div>
 											<div class="col-12">
 												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
+													<li><input type="submit" class="special" value="Send Message via your default mailing app" /></li>
 												</ul>
 											</div>
 										</div>
